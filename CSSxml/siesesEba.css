@@ -1,14 +1,11 @@
-
-
 body {
     font-size: 40px;
     font-family: Georgia, serif;
 }
-h1 {
-    font-size: 50px;
-}
+
 h1 {
     text-shadow: 5px 5px 0 rgba(255, 0, 0, 0.14);
+    font-size: 50px;
 }
 
 h5 {
@@ -23,11 +20,7 @@ pre {
     border: 1px solid #cccccc;
     border-radius: 3px;
 }
-em {
-    color: #618ad2;
-    border: 5px solid #cccccc;
-    border-radius: 5px;
-}
+
 blockquote {
     margin: 1.5em 0;
     padding: 0.5em 15px;
@@ -35,11 +28,12 @@ blockquote {
     background: #f9f9f9;
     border-left: 2px solid #ccc;
     border: 5px solid #f53333;
+    font-family: Monaco, Courier, monospace;
 }
 
 .photo {
     display: block;
-    width: 300px;
+    width: 300px;   /*высота*/
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 2 2 5px #666;
